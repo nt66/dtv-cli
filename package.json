@@ -1,0 +1,21 @@
+{
+  "name": "dtv-cli",
+  "version": "1.0.0",
+  "author": "nt66<tchualingfeng@gmail.com>",
+  "license": "ISC",
+  "description": "可视化框架工程化的node指令工具",
+  "main": "./bin/dtv.js",
+  "bin": {
+    "ndc": "./bin/dtv.js"
+  },
+  "dependencies": {
+    "commander": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nt66/dtv-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nt66/dtv-cli/issues"
+  }
+}
