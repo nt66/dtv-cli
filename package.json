@@ -6,7 +6,7 @@
   "description": "可视化框架工程化的node指令工具",
   "main": "./bin/dtv.js",
   "bin": {
-    "ndc": "./bin/dtv.js"
+    "dtv": "./bin/dtv.js"
   },
   "dependencies": {
     "commander": "^7.1.0"
