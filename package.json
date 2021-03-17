@@ -1,6 +1,6 @@
 {
   "name": "dtv-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "nt66<tchualingfeng@gmail.com>",
   "license": "ISC",
   "description": "可视化框架工程化的node指令工具",
@@ -9,7 +9,10 @@
     "dtv": "./bin/dtv.js"
   },
   "dependencies": {
-    "commander": "^7.1.0"
+    "commander": "^7.1.0",
+    "debug": "^4.3.1",
+    "graceful-logger": "^0.4.3",
+    "moment": "^2.29.1"
   },
   "repository": {
     "type": "git",
