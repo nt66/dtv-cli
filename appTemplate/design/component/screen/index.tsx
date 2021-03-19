@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 // import { Counter } from '../../../src';
-import { Counter } from '@dtv/visual-cli';
 import { connect } from 'dva';
 
 import styles from './index.less';
@@ -20,7 +19,7 @@ class Screen extends Component<any, any>  {
     };
     return (
       <>
-        <Counter option={option} />
+        {/* <Counter option={option} /> */}
       </>
     )
   }
