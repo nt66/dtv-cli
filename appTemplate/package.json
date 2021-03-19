@@ -44,7 +44,6 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
-    "@dtv/visual-cli": "^1.1.0",
     "antd": "^4.13.1",
     "d3": "^6.5.0",
     "dva": "^2.4.1",
