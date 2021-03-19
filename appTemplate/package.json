@@ -1,0 +1,61 @@
+{
+  "author": "灵峯",
+  "license": "ISC",
+  "name": "@dtv/visual-cli",
+  "version": "1.1.0",
+  "description": "visual component for react 可视化组件库",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "dtv s",
+    "dev": "webpack-dev-server --config ./scripts/webpack.dev.config.js",
+    "build": "webpack --config  ./scripts/webpack.prod.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.12.17",
+    "@hot-loader/react-dom": "^16.13.0",
+    "@types/d3": "^6.3.0",
+    "@types/lodash": "^4.14.168",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-router-dom": "^5.1.7",
+    "autoprefixer": "^9.8.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "less": "^4.1.1",
+    "less-loader": "5.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-strip-inline-comments": "^0.1.5",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^3.0.6",
+    "typescript": "^4.1.5",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9",
+    "webpack-node-externals": "^2.5.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "@dtv/visual-cli": "^1.1.0",
+    "antd": "^4.13.1",
+    "d3": "^6.5.0",
+    "dva": "^2.4.1",
+    "lodash": "^4.17.20",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-text-to-input": "^0.3.1"
+  },
+  "checkFiles": [
+    "src/**/*.js*",
+    "src/**/*.ts*",
+    "src/**/*.less"
+  ]
+}

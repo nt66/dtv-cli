@@ -1,0 +1,49 @@
+html, body {
+  font-family: -apple-system, "SF UI Text", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Zen Hei", sans-serif;
+  font-weight: normal;
+  line-height: 18px;
+  font-size: 16px;
+  height: 100%;
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.mainV {
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: rgb(215, 221, 224);
+  font-size: 12px;
+  z-index: 1;
+
+  .mainContent {
+    position: relative;
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    overflow: hidden;
+
+    .screen {
+      position: fixed;
+      inset: 52px 0px 0px;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      transition: background 0.2s ease-in-out 0s;
+      background-color: rgb(21, 21, 21);
+    }
+  }
+}

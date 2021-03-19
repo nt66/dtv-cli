@@ -1,0 +1,108 @@
+.RightMain {
+  position: relative;
+  display: flex;
+  z-index: 4;
+
+  .RightContent {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .aSd {
+      display: flex;
+      flex: 1 1 0%;
+      flex-direction: column;
+      background: rgb(37, 38, 38);
+      overflow: hidden;
+      height: 100%;
+      width: 228px;
+    }
+
+    .aSd>header {
+      display: flex;
+      flex-shrink: 0;
+      height: 40px;
+      padding-left: 10px;
+      padding-right: 12px;
+      border-bottom: 1px solid rgb(21, 21, 21);
+    }
+
+    .nav {
+      list-style: none;
+      display: flex;
+      height: 100%;
+
+      .navItem {
+        position: relative;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        color: rgb(153, 153, 153);
+        padding: 0px 3px;
+        transition: all 0.2s ease-out 0s;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+
+        .navUnderline {
+          position: absolute;
+          left: 0px;
+          bottom: 0px;
+          width: 100%;
+          border-bottom: 2px solid rgb(215, 221, 224);
+        }
+      }
+
+      .navItem:not(:first-child) {
+        margin-left: 10px;
+      }
+
+      .active {
+        color: rgb(242, 244, 245);
+        font-weight: 600;
+      }
+    }
+
+    .main{
+      flex: 1 1 0%;
+      width: 228px;
+      overflow: hidden auto;
+      .selection{
+        padding: 10px 14px;
+        width: 230px;
+        color: rgb(215, 221, 224);
+        font-weight: 600;
+        border-bottom: 1px solid rgb(21, 21, 21);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        .attrName {
+          font-size: 14px;
+          width: 100%;
+          height: 23px;
+          line-height: 22px;
+          overflow: hidden;
+          border-bottom: 1px solid transparent;
+          font-weight: 600;
+          opacity: 0.5;
+        }
+        .attrValue {
+          font-size: 14px;
+          padding: 5px;
+          width: 190px;
+        }
+        .attrEdit {
+          background: #252626;
+          color: rgb(215, 221, 224);
+          width: 200px;
+          height: 26px;
+          transition: all 0.2s ease-out 0s;
+          cursor: default;
+          border: 1px solid rgb(215, 221, 224);
+          text-indent: 4px;
+        }
+      }
+    }
+  }
+}

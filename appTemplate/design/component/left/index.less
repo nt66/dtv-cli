@@ -1,0 +1,120 @@
+.leftMain {
+  position: relative;
+  z-index: 13;
+  flex-shrink: 0;
+  width: 41px;
+  padding-top: 14px;
+  background: rgb(54, 55, 56);
+  border-right: 1px solid rgb(21, 21, 21);
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.leftContent {
+  position: absolute;
+  left: 41px;
+  height: 100%;
+  top: 0;
+  box-sizing: content-box;
+  flex-shrink: 0;
+  display: flex;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  background: rgb(37, 38, 38);
+  border-right: 1px solid rgb(69, 70, 71);
+  font-size: 12px;
+  z-index: 4;
+
+  .aSd {
+    width: 220px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    background: rgb(37, 38, 38);
+    overflow: hidden;
+    height: 100%;
+    width: 228px;
+  }
+
+  .aSd>header {
+    display: flex;
+    flex-shrink: 0;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 12px;
+    border-bottom: 1px solid rgb(21, 21, 21);
+  }
+
+  .nav {
+    list-style: none;
+    display: flex;
+    height: 100%;
+
+    .navItem {
+      position: relative;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      color: rgb(153, 153, 153);
+      padding: 0px 3px;
+      transition: all 0.2s ease-out 0s;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+
+      .navUnderline {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        border-bottom: 2px solid rgb(215, 221, 224);
+      }
+    }
+
+    .navItem:not(:first-child) {
+      margin-left: 10px;
+    }
+
+    .active {
+      color: rgb(242, 244, 245);
+      font-weight: 600;
+    }
+  }
+  .screenList{
+
+  }
+  .screenList ol, .screenList ul {
+    list-style: none;
+  }
+  .componentItem{
+    position: relative;
+    height: 32px;
+    padding-left: 14px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid transparent;
+    color: rgb(215, 221, 224);
+    font-size: 12px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+   
+  }
+  .componentItemSed{
+    background: rgb(25, 106, 212);
+  }
+  .componentItem:hover{
+    background: rgba(0,0,0,0.6);
+  }
+
+}
