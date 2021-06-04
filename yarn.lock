@@ -2,36 +2,36 @@
 # yarn lockfile v1
 
 
-colors@^1.0.3:
-  version "1.4.0"
-  resolved "https://registry.npm.taobao.org/colors/download/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
-  integrity sha1-xQSRR51MG9rtLJztMs98fcI2D3g=
+"colors@^1.0.3":
+  "integrity" "sha1-xQSRR51MG9rtLJztMs98fcI2D3g="
+  "resolved" "https://registry.npm.taobao.org/colors/download/colors-1.4.0.tgz"
+  "version" "1.4.0"
 
-commander@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.npm.taobao.org/commander/download/commander-7.1.0.tgz#f2eaecf131f10e36e07d894698226e36ae0eb5ff"
-  integrity sha1-8urs8THxDjbgfYlGmCJuNq4Otf8=
+"commander@^7.1.0":
+  "integrity" "sha1-8urs8THxDjbgfYlGmCJuNq4Otf8="
+  "resolved" "https://registry.npm.taobao.org/commander/download/commander-7.1.0.tgz"
+  "version" "7.1.0"
 
-debug@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.npm.taobao.org/debug/download/debug-4.3.1.tgz?cache=0&sync_timestamp=1607566537361&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
-  integrity sha1-8NIpxQXgxtjEmsVT0bE9wYP2su4=
+"debug@^4.3.1":
+  "integrity" "sha1-8NIpxQXgxtjEmsVT0bE9wYP2su4="
+  "resolved" "https://registry.npm.taobao.org/debug/download/debug-4.3.1.tgz?cache=0&sync_timestamp=1607566537361&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-4.3.1.tgz"
+  "version" "4.3.1"
   dependencies:
-    ms "2.1.2"
+    "ms" "2.1.2"
 
-graceful-logger@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.npm.taobao.org/graceful-logger/download/graceful-logger-0.4.3.tgz#a0b9ab11dc0e79ffea51f1a7b2b8e0a030db156c"
-  integrity sha1-oLmrEdwOef/qUfGnsrjgoDDbFWw=
+"graceful-logger@^0.4.3":
+  "integrity" "sha1-oLmrEdwOef/qUfGnsrjgoDDbFWw="
+  "resolved" "https://registry.npm.taobao.org/graceful-logger/download/graceful-logger-0.4.3.tgz"
+  "version" "0.4.3"
   dependencies:
-    colors "^1.0.3"
+    "colors" "^1.0.3"
 
-moment@^2.29.1:
-  version "2.29.1"
-  resolved "https://registry.npm.taobao.org/moment/download/moment-2.29.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmoment%2Fdownload%2Fmoment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
-  integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=
+"moment@^2.29.1":
+  "integrity" "sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M="
+  "resolved" "https://registry.npm.taobao.org/moment/download/moment-2.29.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmoment%2Fdownload%2Fmoment-2.29.1.tgz"
+  "version" "2.29.1"
 
-ms@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npm.taobao.org/ms/download/ms-2.1.2.tgz?cache=0&sync_timestamp=1607433899126&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fms%2Fdownload%2Fms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
-  integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
+"ms@2.1.2":
+  "integrity" "sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk="
+  "resolved" "https://registry.npm.taobao.org/ms/download/ms-2.1.2.tgz?cache=0&sync_timestamp=1607433899126&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fms%2Fdownload%2Fms-2.1.2.tgz"
+  "version" "2.1.2"
