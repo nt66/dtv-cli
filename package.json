@@ -1,12 +1,12 @@
 {
   "name": "dtv-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "nt66<tchualingfeng@gmail.com>",
   "license": "ISC",
   "description": "可视化框架工程化的node指令工具",
   "main": "./bin/dtv.js",
   "bin": {
-    "dtv": "./bin/dtv.js"
+    "dtv": "bin/dtv.js"
   },
   "dependencies": {
     "commander": "^7.1.0",
