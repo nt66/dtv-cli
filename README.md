@@ -38,7 +38,7 @@ Commands:
                              编译镜像
   publish|p                  Publish project
                              发布镜像
-  new|n [name]               new component
+  new|n -n [name]            new component
                              新建组件
 ```
 
