@@ -1,6 +1,6 @@
 {
   "name": "dtv-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "nt66<tchualingfeng@gmail.com>",
   "license": "ISC",
   "description": "可视化框架工程化的node指令工具",
